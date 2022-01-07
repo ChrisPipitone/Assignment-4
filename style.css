@@ -1,6 +1,15 @@
 #part2 {font-size: 25px;text-align: center;}
 #part3Heading {font-size: 25px;text-align: center;}
 #part3Form {font-size: 25px; text-align: center;}
+#p1 {
+    font-size: 25px; text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
 #b1 {
     font-size: 25px; text-align: center;
     margin: 0;

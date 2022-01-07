@@ -4,15 +4,16 @@
 // 1.	Create an HTML page with two buttons that argue with each other. When one button is clicked, the text "I'm right" should be placed next to it. When the other button is clicked, the text is replaced with, "No, I'm right!"
 const b1 = document.getElementById("b1");
 const b2 = document.getElementById("b2");
+const p1 = document.getElementById("p1");
+
 if (b1 && b2)
 {
     b1.addEventListener("click", () => {
-        b1.innerText= "I'm right";
-        b1.removeEventListener;
+        p1.innerText= "I'm Right";
     });
     
     b2.addEventListener("click", () => {
-        b2.innerText= "No I'm right!";
+        p1.innerText= "No I'm Right!";
     
     });
 }
