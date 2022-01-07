@@ -29,6 +29,10 @@ if(part2)
 
 // 3.	Create an HTML page with a form. It should include inputs for a username, email, and password. Also a submit button.
 // 4.	In a Javascript file, write a program which checks the following things:
+// a.	checks that the password is 12345678
+// b.	if the password is incorrect, send an alert message
+// c.	Your page should also include an <h1> tag. If the information in the form is correct, have Javascript change the text in the <h1>.HTML page.
+// 5.	Add a CSS stylesheet that styles all of your pages.
 const userName = document.getElementById("userName");
 const email = document.getElementById("email");
 const password = document.getElementById("Password");
@@ -47,7 +51,4 @@ if(form)
         e.preventDefault();
     })
 }
-// a.	checks that the password is 12345678
-// b.	if the password is incorrect, send an alert message
-// c.	Your page should also include an <h1> tag. If the information in the form is correct, have Javascript change the text in the <h1>.HTML page.
-// 5.	Add a CSS stylesheet that styles all of your pages.
+
